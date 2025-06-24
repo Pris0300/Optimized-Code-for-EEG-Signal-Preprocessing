@@ -1,1 +1,1 @@
-# Optimized-Code-for-EEG-Signal-Preprocessing
+# Optimized Code for EEG Signal Preprocessing
