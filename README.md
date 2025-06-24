@@ -1,2 +1,2 @@
 # Optimized Code for EEG Signal Preprocessing
-![Optimized Code](https://github.com/user-attachments/assets/5c27ca5d-6671-4ca8-baaa-079b4079e22e)
+![Optimized Code](https://github.com/user-attachments/assets/aa658b9a-9e24-4dc0-81ea-0ee8fe4a5174)
