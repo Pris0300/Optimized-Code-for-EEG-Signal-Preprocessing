@@ -63,7 +63,7 @@ for i = 1:num_sig
     ica_sphere = EEG.icasphere;
     icachansind = EEG.icachansind;
 
-    % Band-pass filter on baseline removed dataset
+    % Band-pass filter 1-30 Hz on baseline removed dataset
     EEG = EEG_baseline_removed;
     EEG = pop_eegfiltnew(EEG, 'locutoff', 1, 'hicutoff', 30);
 
