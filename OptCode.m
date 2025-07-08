@@ -65,7 +65,7 @@ for i = 1:num_sig
 
     % Band-pass filter on baseline removed dataset
     EEG = EEG_baseline_removed;
-    EEG = pop_eegfiltnew(EEG, 'locutoff', 8, 'hicutoff', 20);
+    EEG = pop_eegfiltnew(EEG, 'locutoff', 1, 'hicutoff', 30);
 
     % Apply ICA weights
     EEG = pop_editset(EEG, 'icaweights', ica_weights, 'icasphere', ica_sphere, 'icachansind', icachansind);
